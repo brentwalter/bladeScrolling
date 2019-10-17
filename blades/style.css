@@ -1,0 +1,30 @@
+/* Blades-pattern related styles */
+#js-bladesContainer {
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles just for the demo */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: hotpink;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding: 30px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+
+.section--one { background: navy; }
+.section--two { background: blue; }
+.section--three { background: aqua; }
+.section--four { background: Aquamarine; }
+.section--five { background: #10fce7; }
